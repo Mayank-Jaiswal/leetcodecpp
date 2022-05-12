@@ -3,7 +3,6 @@ class Solution
 public:
     vector<int> twoSum(vector<int> &nums, int target)
     {
-        int rubbish = 0;
         unordered_map<int, int> imap;
         for (int i = 0;; ++i)
         {
@@ -14,6 +13,5 @@ public:
 
             imap[nums[i]] = i;
         }
-        return rubbish;
     }
 };
