@@ -13,4 +13,4 @@ public:
             curr->next = curr->next->next;
         }
     }
-};
+}
